@@ -9,6 +9,7 @@ header {
   background-color: #5169a7;
 }
 h1 {
+  margin: auto;
   font-size: 3rem;
 }
 ul {
@@ -67,6 +68,14 @@ main > section:last-child {
   height: 30rem;
   width: 100%;
 }
+section > p {
+  margin-right: 25px;
+  text-align: right;
+}
 footer {
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  background-color: #5169a7;
 }
